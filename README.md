@@ -1,6 +1,17 @@
-# Flashcards TBS Verbal - Sinonim
+# Flashcards TBS Verbal
 
-Aplikasi **Flashcards TBS Verbal - Sinonim** adalah aplikasi berbasis Vue 3 dan Vuetify untuk membantu pengguna dalam mempelajari sinonim kata dalam bahasa Indonesia.
+A flashcards app for TBS Verbal - Sinonim built with Vue and Vite.
+
+## 🚀 Live Demo
+
+You can try the live version of this application here:  
+🔗 **[Flashcards TBS Verbal](https://jenusdy.github.io/flashcards-tbs-verbal/)**  
+
+## 🛠 Tech Stack
+
+- Vue.js
+- Vite
+- GitHub Pages (for deployment)
 
 ## 🚀 Fitur Utama
 
