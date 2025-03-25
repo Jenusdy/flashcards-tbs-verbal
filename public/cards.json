@@ -1,146 +1,182 @@
 [
-    {
-        "word": "Hostes",
-        "definition": "Pramugari atau pemandu wanita yang bertugas melayani tamu di suatu acara atau tempat.",
-        "example": "Hostes di restoran itu menyambut tamu dengan ramah dan mengarahkan mereka ke meja yang telah disiapkan."
-      },
-      {
-        "word": "Jenggala",
-        "definition": "Hutan lebat atau wilayah yang masih liar dan belum terjamah.",
-        "example": "Para peneliti menemukan spesies burung langka di tengah jenggala yang terpencil."
-      },
-      {
-        "word": "Evokasi",
-        "definition": "Proses membangkitkan kembali ingatan, perasaan, atau gambaran mental tertentu.",
-        "example": "Puisi itu memiliki kekuatan evokasi yang mampu membawa pembacanya mengenang masa kecil mereka."
-      },
-      {
-        "word": "Paripurna",
-        "definition": "Sempurna atau lengkap.",
-        "example": "Pembangunan jembatan itu akhirnya paripurna setelah mengalami berbagai kendala selama bertahun-tahun."
-      },
-      {
-        "word": "Lekang",
-        "definition": "Hilang atau tidak melekat lagi; luntur.",
-        "example": "Kenangan manis bersama sahabat lama itu tak lekang oleh waktu."
-      },
-      {
-        "word": "Agitasi",
-        "definition": "Upaya untuk membangkitkan semangat atau emosi seseorang, sering kali dalam konteks politik atau sosial.",
-        "example": "Pidato pemimpin gerakan itu penuh dengan agitasi yang membakar semangat para pendukungnya."
-      },
-      {
-        "word": "Sekuler",
-        "definition": "Tidak berkaitan dengan agama; bersifat duniawi.",
-        "example": "Pendidikan di sekolah negeri bersifat sekuler agar dapat diterima oleh semua golongan masyarakat."
-      },
-      {
-        "word": "Elaborasi",
-        "definition": "Penjelasan yang lebih mendetail dan terperinci.",
-        "example": "Dalam presentasinya, ilmuwan itu memberikan elaborasi mendalam tentang teori yang ia kembangkan."
-      },{
-        "word": "Serebrum",
-        "definition": "Bagian terbesar dari otak yang berperan dalam fungsi kognitif, persepsi, dan pengendalian gerak.",
-        "example": "Kerusakan pada serebrum dapat menyebabkan gangguan pada kemampuan berpikir dan koordinasi tubuh."
-      },
-      {
-        "word": "Bonafide",
-        "definition": "Terpercaya, jujur, dan memiliki reputasi baik.",
-        "example": "Perusahaan bonafide itu selalu menjaga kualitas produknya dan memiliki banyak pelanggan setia."
-      },
-      {
-        "word": "Ekamatra",
-        "definition": "Bersifat satu dimensi atau memiliki satu ukuran utama.",
-        "example": "Garis lurus dalam matematika dianggap sebagai objek ekamatra karena hanya memiliki panjang tanpa lebar atau tinggi."
-      },
-      {
-        "word": "Siau",
-        "definition": "Dingin atau sudah tidak panas lagi.",
-        "example": "Aku menunggu teh ini siau sebelum meminumnya agar tidak membakar lidah."
-      },
-      {
-        "word": "Partikelir",
-        "definition": "Bersifat swasta atau pribadi, bukan milik pemerintah.",
-        "example": "Sekolah partikelir sering kali memiliki biaya yang lebih tinggi dibandingkan sekolah negeri."
-      },
-      {
-        "word": "Opas",
-        "definition": "Petugas keamanan atau penjaga dalam lingkungan pemerintahan atau instansi tertentu.",
-        "example": "Opas di kantor kecamatan itu dengan sigap membantu warga yang datang mengurus administrasi."
-      },
-      {
-        "word": "Angot",
-        "definition": "Setengah hati atau tidak bersungguh-sungguh dalam melakukan sesuatu.",
-        "example": "Karena hanya angot dalam belajar, ia kesulitan saat menghadapi ujian akhir."
-      },
-      {
-        "word": "Perlop",
-        "definition": "Cuti atau libur dari pekerjaan.",
-        "example": "Setelah bekerja tanpa henti selama enam bulan, akhirnya ia mendapatkan perlop selama seminggu."
-      },
-      {
-        "word": "Naas",
-        "definition": "Sial atau mengalami kejadian buruk.",
-        "example": "Hari ini benar-benar naas bagiku, mulai dari terlambat bangun hingga kehilangan dompet di jalan."
-      },
-      {
-        "word": "Motilitas",
-        "definition": "Kemampuan suatu organisme atau sel untuk bergerak secara aktif dan mandiri.",
-        "example": "Bakteri tertentu memiliki motilitas tinggi yang memungkinkan mereka berpindah menuju sumber nutrisi dengan cepat."
-      },
-      {
-        "word": "Nanar",
-        "definition": "Keadaan bingung, pusing, atau tidak fokus akibat kelelahan, cahaya terang, atau kebingungan.",
-        "example": "Setelah berputar terlalu lama di wahana permainan, kepalanya terasa nanar dan sulit menjaga keseimbangan."
-      },
-      {
-        "word": "Kisi-kisi",
-        "definition": "Rangkaian garis atau bilah yang disusun berjarak untuk ventilasi, penyaringan, atau sebagai panduan suatu materi.",
-        "example": "Guru memberikan kisi-kisi soal kepada siswa sebagai panduan dalam menghadapi ujian akhir."
-      },
-      {
-        "word": "Saban",
-        "definition": "Kata yang berarti 'setiap' atau 'selalu' dalam konteks waktu.",
-        "example": "Saban pagi, ia selalu berlari mengelilingi taman untuk menjaga kebugaran tubuhnya."
-      },
-      {
-        "word": "Wanodya",
-        "definition": "Kata dalam bahasa Sanskerta yang berarti perempuan muda atau gadis.",
-        "example": "Wanodya itu dikenal sebagai penari berbakat di desa mereka."
-      },
-      {
-        "word": "Mandala",
-        "definition": "Lingkaran atau pola geometris yang memiliki makna simbolis dan sering digunakan dalam seni dan spiritualitas.",
-        "example": "Lukisan mandala yang rumit itu melambangkan keseimbangan dan harmoni dalam kehidupan."
-      },
-      {
-        "word": "Jazirah",
-        "definition": "Sebuah daratan besar yang menjorok ke laut atau dikenal sebagai semenanjung.",
-        "example": "Jazirah Arab merupakan wilayah yang memiliki sejarah panjang dalam perkembangan peradaban Islam."
-      },
-      {
-        "word": "Ordinasi",
-        "definition": "Proses atau tindakan penahbisan seseorang ke dalam jabatan keagamaan atau administratif.",
-        "example": "Upacara ordinasi pendeta di gereja berlangsung dengan khidmat dan penuh makna."
-      },
-      {
-        "word": "Rakyu",
-        "definition": "Istilah yang jarang digunakan, merujuk pada keadaan runtuh atau roboh.",
-        "example": "Bangunan tua itu akhirnya rakyu setelah bertahun-tahun tidak terawat."
-      },
-      {
-        "word": "Konvensi",
-        "definition": "Perjanjian atau kesepakatan yang telah diterima secara luas dalam suatu kelompok atau masyarakat.",
-        "example": "Negara-negara anggota sepakat untuk menandatangani konvensi tentang perlindungan lingkungan."
-      },
-      {
-        "word": "Gancu",
-        "definition": "Alat berbentuk kait atau pengait yang digunakan untuk menarik atau mengangkat benda.",
-        "example": "Para pekerja pelabuhan menggunakan gancu untuk memindahkan karung dari kapal ke dermaga."
-      },
-      {
-        "word": "Babut",
-        "definition": "Sejenis kain atau tekstil yang memiliki tekstur kasar dan biasanya digunakan untuk lap atau bahan pelapis.",
-        "example": "Ia menggunakan babut untuk membersihkan meja kayu dari debu dan kotoran."
-      }
+  {
+    "word": "Hostes",
+    "definition": "Pramugari atau pemandu wanita yang bertugas melayani tamu di suatu acara atau tempat.",
+    "example": "Hostes di restoran itu menyambut tamu dengan ramah dan mengarahkan mereka ke meja yang telah disiapkan."
+  },
+  {
+    "word": "Jenggala",
+    "definition": "Hutan lebat atau wilayah yang masih liar dan belum terjamah.",
+    "example": "Para peneliti menemukan spesies burung langka di tengah jenggala yang terpencil."
+  },
+  {
+    "word": "Evokasi",
+    "definition": "Proses membangkitkan kembali ingatan, perasaan, atau gambaran mental tertentu.",
+    "example": "Puisi itu memiliki kekuatan evokasi yang mampu membawa pembacanya mengenang masa kecil mereka."
+  },
+  {
+    "word": "Paripurna",
+    "definition": "Sempurna atau lengkap.",
+    "example": "Pembangunan jembatan itu akhirnya paripurna setelah mengalami berbagai kendala selama bertahun-tahun."
+  },
+  {
+    "word": "Lekang",
+    "definition": "Hilang atau tidak melekat lagi; luntur.",
+    "example": "Kenangan manis bersama sahabat lama itu tak lekang oleh waktu."
+  },
+  {
+    "word": "Agitasi",
+    "definition": "Upaya untuk membangkitkan semangat atau emosi seseorang, sering kali dalam konteks politik atau sosial.",
+    "example": "Pidato pemimpin gerakan itu penuh dengan agitasi yang membakar semangat para pendukungnya."
+  },
+  {
+    "word": "Sekuler",
+    "definition": "Tidak berkaitan dengan agama; bersifat duniawi.",
+    "example": "Pendidikan di sekolah negeri bersifat sekuler agar dapat diterima oleh semua golongan masyarakat."
+  },
+  {
+    "word": "Elaborasi",
+    "definition": "Penjelasan yang lebih mendetail dan terperinci.",
+    "example": "Dalam presentasinya, ilmuwan itu memberikan elaborasi mendalam tentang teori yang ia kembangkan."
+  },
+  {
+    "word": "Serebrum",
+    "definition": "Bagian terbesar dari otak yang berperan dalam fungsi kognitif, persepsi, dan pengendalian gerak.",
+    "example": "Kerusakan pada serebrum dapat menyebabkan gangguan pada kemampuan berpikir dan koordinasi tubuh."
+  },
+  {
+    "word": "Bonafide",
+    "definition": "Terpercaya, jujur, dan memiliki reputasi baik.",
+    "example": "Perusahaan bonafide itu selalu menjaga kualitas produknya dan memiliki banyak pelanggan setia."
+  },
+  {
+    "word": "Ekamatra",
+    "definition": "Bersifat satu dimensi atau memiliki satu ukuran utama.",
+    "example": "Garis lurus dalam matematika dianggap sebagai objek ekamatra karena hanya memiliki panjang tanpa lebar atau tinggi."
+  },
+  {
+    "word": "Siau",
+    "definition": "Dingin atau sudah tidak panas lagi.",
+    "example": "Aku menunggu teh ini siau sebelum meminumnya agar tidak membakar lidah."
+  },
+  {
+    "word": "Partikelir",
+    "definition": "Bersifat swasta atau pribadi, bukan milik pemerintah.",
+    "example": "Sekolah partikelir sering kali memiliki biaya yang lebih tinggi dibandingkan sekolah negeri."
+  },
+  {
+    "word": "Opas",
+    "definition": "Petugas keamanan atau penjaga dalam lingkungan pemerintahan atau instansi tertentu.",
+    "example": "Opas di kantor kecamatan itu dengan sigap membantu warga yang datang mengurus administrasi."
+  },
+  {
+    "word": "Angot",
+    "definition": "Setengah hati atau tidak bersungguh-sungguh dalam melakukan sesuatu.",
+    "example": "Karena hanya angot dalam belajar, ia kesulitan saat menghadapi ujian akhir."
+  },
+  {
+    "word": "Perlop",
+    "definition": "Cuti atau libur dari pekerjaan.",
+    "example": "Setelah bekerja tanpa henti selama enam bulan, akhirnya ia mendapatkan perlop selama seminggu."
+  },
+  {
+    "word": "Naas",
+    "definition": "Sial atau mengalami kejadian buruk.",
+    "example": "Hari ini benar-benar naas bagiku, mulai dari terlambat bangun hingga kehilangan dompet di jalan."
+  },
+  {
+    "word": "Motilitas",
+    "definition": "Kemampuan suatu organisme atau sel untuk bergerak secara aktif dan mandiri.",
+    "example": "Bakteri tertentu memiliki motilitas tinggi yang memungkinkan mereka berpindah menuju sumber nutrisi dengan cepat."
+  },
+  {
+    "word": "Nanar",
+    "definition": "Keadaan bingung, pusing, atau tidak fokus akibat kelelahan, cahaya terang, atau kebingungan.",
+    "example": "Setelah berputar terlalu lama di wahana permainan, kepalanya terasa nanar dan sulit menjaga keseimbangan."
+  },
+  {
+    "word": "Kisi-kisi",
+    "definition": "Rangkaian garis atau bilah yang disusun berjarak untuk ventilasi, penyaringan, atau sebagai panduan suatu materi.",
+    "example": "Guru memberikan kisi-kisi soal kepada siswa sebagai panduan dalam menghadapi ujian akhir."
+  },
+  {
+    "word": "Saban",
+    "definition": "Kata yang berarti 'setiap' atau 'selalu' dalam konteks waktu.",
+    "example": "Saban pagi, ia selalu berlari mengelilingi taman untuk menjaga kebugaran tubuhnya."
+  },
+  {
+    "word": "Wanodya",
+    "definition": "Kata dalam bahasa Sanskerta yang berarti perempuan muda atau gadis.",
+    "example": "Wanodya itu dikenal sebagai penari berbakat di desa mereka."
+  },
+  {
+    "word": "Mandala",
+    "definition": "Lingkaran atau pola geometris yang memiliki makna simbolis dan sering digunakan dalam seni dan spiritualitas.",
+    "example": "Lukisan mandala yang rumit itu melambangkan keseimbangan dan harmoni dalam kehidupan."
+  },
+  {
+    "word": "Jazirah",
+    "definition": "Sebuah daratan besar yang menjorok ke laut atau dikenal sebagai semenanjung.",
+    "example": "Jazirah Arab merupakan wilayah yang memiliki sejarah panjang dalam perkembangan peradaban Islam."
+  },
+  {
+    "word": "Ordinasi",
+    "definition": "Proses atau tindakan penahbisan seseorang ke dalam jabatan keagamaan atau administratif.",
+    "example": "Upacara ordinasi pendeta di gereja berlangsung dengan khidmat dan penuh makna."
+  },
+  {
+    "word": "Rakyu",
+    "definition": "Istilah yang jarang digunakan, merujuk pada keadaan runtuh atau roboh.",
+    "example": "Bangunan tua itu akhirnya rakyu setelah bertahun-tahun tidak terawat."
+  },
+  {
+    "word": "Konvensi",
+    "definition": "Perjanjian atau kesepakatan yang telah diterima secara luas dalam suatu kelompok atau masyarakat.",
+    "example": "Negara-negara anggota sepakat untuk menandatangani konvensi tentang perlindungan lingkungan."
+  },
+  {
+    "word": "Gancu",
+    "definition": "Alat berbentuk kait atau pengait yang digunakan untuk menarik atau mengangkat benda.",
+    "example": "Para pekerja pelabuhan menggunakan gancu untuk memindahkan karung dari kapal ke dermaga."
+  },
+  {
+    "word": "Babut",
+    "definition": "Sejenis kain atau tekstil yang memiliki tekstur kasar dan biasanya digunakan untuk lap atau bahan pelapis.",
+    "example": "Ia menggunakan babut untuk membersihkan meja kayu dari debu dan kotoran."
+  },
+  {
+    "word": "Mudun",
+    "definition": "Tindakan atau keadaan menurun, mundur, atau mengalami penurunan dalam kualitas atau kuantitas.",
+    "example": "Ekonomi negara itu mengalami mudun akibat krisis global."
+  },
+  {
+    "word": "Agitator",
+    "definition": "Orang yang menghasut atau membangkitkan semangat masyarakat untuk melakukan aksi tertentu, sering kali terkait dengan perubahan sosial atau politik.",
+    "example": "Seorang agitator berbicara di depan massa untuk menyerukan aksi demonstrasi."
+  },
+  {
+    "word": "Quasi",
+    "definition": "Bersifat menyerupai sesuatu tetapi tidak sepenuhnya sama atau sebenarnya.",
+    "example": "Organisasi itu memiliki struktur quasi-pemerintahan, meskipun bukan lembaga resmi negara."
+  },
+  {
+    "word": "Abolisi",
+    "definition": "Penghapusan atau pembatalan suatu sistem, hukum, atau kebijakan.",
+    "example": "Banyak negara telah melakukan abolisi terhadap hukuman mati dalam sistem hukum mereka."
+  },
+  {
+    "word": "Nisbi",
+    "definition": "Bersifat relatif atau tergantung pada sudut pandang tertentu.",
+    "example": "Keberhasilan seseorang sering kali bersifat nisbi, tergantung pada standar yang digunakan."
+  },
+  {
+    "word": "Enmity",
+    "definition": "Perasaan permusuhan atau kebencian yang mendalam terhadap seseorang atau kelompok.",
+    "example": "Persaingan bisnis yang ketat sering kali menimbulkan enmity antara kedua perusahaan tersebut."
+  },
+  {
+    "word": "Insinuasi",
+    "definition": "Pernyataan atau sindiran halus yang menyiratkan sesuatu tanpa mengatakannya secara langsung.",
+    "example": "Ia membuat insinuasi tentang korupsi dalam pemerintahan tanpa menyebutkan nama siapa pun secara spesifik."
+  }
 ]
