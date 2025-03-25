@@ -85,7 +85,7 @@ export default {
   methods: {
     async fetchCards() {
       try {
-        const response = await fetch("/cards.json");
+        const response = await fetch(`${import.meta.env.BASE_URL}cards.json`);
         this.cards = await response.json();
         this.shuffleCards();
       } catch (error) {
