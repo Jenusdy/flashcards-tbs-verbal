@@ -30,6 +30,15 @@
             <p><strong>Definisi:</strong> {{ cards[currentIndex]?.definition || "Memuat..." }}</p>
             <p class="mt-2 font-italic">"{{ hiddenExample }}"</p>
 
+            <!-- Opsi Pilihan Teks -->
+            <div class="mt-4">
+              <p><strong>List opsi : </strong></p>
+              <div v-for="(option, index) in options" :key="index" class="option-text" >
+                <li>{{ option }}</li>
+              </div>
+            </div>
+
+            <p class="mt-10 "><strong>Ketik jawaban di input berikut </strong></p>
             <!-- Input field for guessing -->
             <v-text-field
               v-model="userGuess"
@@ -40,13 +49,6 @@
             ></v-text-field>
 
           </v-card-text>
-
-          <v-card-actions class="justify-center">
-            <!-- Show Answer Button -->
-            <!-- <v-btn @click="checkAnswer" color="warning" variant="elevated" class="mt-2">Tampilkan Jawaban</v-btn> -->
-            <!-- <v-btn @click="prevCard" color="primary" variant="elevated">Sebelumnya</v-btn> -->
-            <!-- <v-btn @click="skipCard" color="error" variant="elevated">Skip</v-btn> -->
-          </v-card-actions>
         </template>
 
         <!-- Loading Indicator -->
@@ -72,6 +74,7 @@ export default {
       showAnswer: false,
       correctCount: 0,
       errorCount: 0,
+      options: [], // Untuk menampung pilihan jawaban
     };
   },
   computed: {
@@ -102,6 +105,41 @@ export default {
       this.currentIndex = 0;
       this.correctCount = 0;
       this.errorCount = 0;
+      this.generateOptions();
+    },
+    generateOptions() {
+      // Ambil kata yang benar dan acak 4 kata lainnya untuk membuat pilihan
+      const correctWord = this.cards[this.currentIndex]?.word;
+      const otherWords = this.cards.filter((card, index) => index !== this.currentIndex)
+        .map(card => card.word);
+      
+      // Acak 4 kata lainnya
+      const shuffledWords = this.shuffleArray(otherWords).slice(0, 4);
+      this.options = [correctWord, ...shuffledWords].sort(() => Math.random() - 0.5);
+    },
+    shuffleArray(arr) {
+      return arr.sort(() => Math.random() - 0.5);
+    },
+    checkOption(option) {
+      if (option.toLowerCase() === this.cards[this.currentIndex]?.word.toLowerCase()) {
+        this.correctCount++;
+        Swal.fire({
+          icon: "success",
+          title: "Benar!",
+          text: "Great job! Jawaban Anda benar.",
+        }).then(() => {
+          this.nextCard();
+        });
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Salah!",
+          text: "Jawaban yang benar : " + this.cards[this.currentIndex]?.word,
+        }).then(() => {
+          this.errorCount++;
+          this.nextCard();
+        });
+      }
     },
     nextCard() {
       if (this.cards.length === 0) return;
@@ -157,6 +195,7 @@ export default {
     resetGuess() {
       this.userGuess = "";
       this.showAnswer = false;
+      this.generateOptions(); // Generate options again for the next card
     },
   },
   mounted() {
@@ -176,5 +215,15 @@ body {
   position: absolute;
   top: 10px;
   right: 15px;
+}
+.option-text {
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px 0;
+}
+.option-text:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
 }
 </style>
