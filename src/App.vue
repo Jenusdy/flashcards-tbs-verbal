@@ -8,7 +8,7 @@
             <v-chip color="success">Benar: {{ correctCount }}</v-chip>
           </v-col>
           <v-col cols="6">
-            <v-chip color="error">Skip: {{ skipCount }}</v-chip>
+            <v-chip color="error">Salah: {{ errorCount }}</v-chip>
           </v-col>
         </v-row>
       </v-card>
@@ -39,13 +39,13 @@
               @keyup.enter="checkAnswer"
             ></v-text-field>
 
-            <!-- Show Answer Button -->
-            <v-btn @click="revealAnswer" color="warning" variant="elevated" class="mt-2">Tampilkan Jawaban</v-btn>
           </v-card-text>
 
           <v-card-actions class="justify-center">
-            <v-btn @click="prevCard" color="primary" variant="elevated">Sebelumnya</v-btn>
-            <v-btn @click="skipCard" color="error" variant="elevated">Skip</v-btn>
+            <!-- Show Answer Button -->
+            <!-- <v-btn @click="checkAnswer" color="warning" variant="elevated" class="mt-2">Tampilkan Jawaban</v-btn> -->
+            <!-- <v-btn @click="prevCard" color="primary" variant="elevated">Sebelumnya</v-btn> -->
+            <!-- <v-btn @click="skipCard" color="error" variant="elevated">Skip</v-btn> -->
           </v-card-actions>
         </template>
 
@@ -71,7 +71,7 @@ export default {
       userGuess: "",
       showAnswer: false,
       correctCount: 0,
-      skipCount: 0,
+      errorCount: 0,
     };
   },
   computed: {
@@ -101,12 +101,12 @@ export default {
       this.usedIndexes.clear();
       this.currentIndex = 0;
       this.correctCount = 0;
-      this.skipCount = 0;
+      this.errorCount = 0;
     },
     nextCard() {
       if (this.cards.length === 0) return;
       if (!this.showAnswer && !this.userGuess.trim()) {
-        this.skipCount++;
+        this.errorCount++;
       }
 
       if (this.usedIndexes.size >= this.cards.length) {
@@ -143,14 +143,13 @@ export default {
       } else {
         Swal.fire({
           icon: "error",
-          title: "Coba lagi!",
-          text: "Oops! Itu bukan jawaban yang benar.",
+          title: "Salah!",
+          text: "Jawaban yang benar : " + this.cards[this.currentIndex]?.word,
+        }).then(() => {
+          this.errorCount++;
+          this.nextCard();
         });
       }
-    },
-    skipCard() {
-      this.skipCount++;
-      this.nextCard();
     },
     revealAnswer() {
       this.showAnswer = true;
